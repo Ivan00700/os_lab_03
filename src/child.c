@@ -11,6 +11,7 @@
 
 // Структура в общей области памяти
 typedef struct {
+    volatile sig_atomic_t child_ready;
     volatile sig_atomic_t has_request;
     volatile sig_atomic_t has_response;
     char text[BUF_SIZE];
@@ -56,6 +57,8 @@ int main() {
     close(fd);
 
     signal(SIGUSR1, sigusr1_handler);
+
+    data->child_ready = 1;
 
     // Ребёнок "спит" пока не приходят ему сигналы и "просыпается" как только таковые получает
     while (1) pause();

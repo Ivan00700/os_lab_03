@@ -1,0 +1,4 @@
+/mnt/c/Users/Иван/OneDrive/Документы/Операционные системы/os_lab_03/src/build-wsl/CMakeFiles/parent.dir
+/mnt/c/Users/Иван/OneDrive/Документы/Операционные системы/os_lab_03/src/build-wsl/CMakeFiles/child.dir
+/mnt/c/Users/Иван/OneDrive/Документы/Операционные системы/os_lab_03/src/build-wsl/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Иван/OneDrive/Документы/Операционные системы/os_lab_03/src/build-wsl/CMakeFiles/rebuild_cache.dir
